@@ -1,3 +1,17 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+
+// Multiples backgrounds
+.contenedor{
+    background: url(../assets/img/desktop/chica_guitarra.jpeg) right top no-repeat,
+                url(../assets/img/desktop/hojas.jpeg) left bottom no-repeat,
+                url(../assets/img/desktop/lineas.jpeg) left top no-repeat,
+                
+}
+
+.contenedor{
+    height: 100vh;
+    max-width: 1366px;
+    background-color: map-get(map-get($colores, fondo), base);
+}
